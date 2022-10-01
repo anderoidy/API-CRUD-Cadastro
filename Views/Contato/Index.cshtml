@@ -23,8 +23,9 @@
                 @Html.DisplayNameFor(model => model.Telefone)
             </th>
               <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                @Html.DisplayNameFor(model => model.Ativo)
             </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -41,12 +42,12 @@
                     @Html.DisplayFor(Model => item.Telefone)
                 </td>
                   <td>
-                    @Html.DisplayFor(Model => item.Estado)
+                    @Html.DisplayFor(Model => item.Ativo)
                 </td>
                 <td>
-                    <a asp-action="Editar" asp-route-id=ïtem.Id>Editar</a> |
-                    <a asp-action="Detalhes" asp-route-id=ïtem.Id>Detalhes</a> |
-                    <a asp-action="Deletar" asp-route-id=ïtem.Id>Deletar</a> 
+                    <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a> 
                 </td>
             </tr>
         }

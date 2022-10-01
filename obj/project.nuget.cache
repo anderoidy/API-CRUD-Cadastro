@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6NUF68Jnp8ixGv4booPMpZmq0A9CsFb6NQiMK/hnr//d+s2z2SrNhwricZ5L+r39aeryD1Yck00OHiRzEgm1eQ==",
+  "dgSpecHash": "P8PvI0LK2q783DILSQzgSps5g32u1RjaOdThp4lGNdqKw9v+AKyfXQx8UCmOWsqoyl8dnmgH2e3WXW7lWU9zGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ander\\Documents\\Projeto-MVC\\API-CRUD-Cadastro\\ProjetoMVC.csproj",
+  "projectFilePath": "C:\\Users\\ander\\Documents\\ProjetoMVC\\ProjetoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ander\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
